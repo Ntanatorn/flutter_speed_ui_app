@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_speed_ui_app/views/c03_page_ui.dart';
 
 class C02PageUi extends StatefulWidget {
   const C02PageUi({super.key});
@@ -106,16 +107,18 @@ class _C02PageUiState extends State<C02PageUi> {
                 children: [
                   IconButton(
                     onPressed: () {},
-                    icon: Image.asset('assets/images/imgc3.png'), // ใส่โลโก้ Google
+                    icon: Image.asset(
+                        'assets/images/imgc3.png'), // ใส่โลโก้ Google
                   ),
                   IconButton(
                     onPressed: () {},
-                    icon:
-                        Image.asset('assets/images/imgc4.png'), // ใส่โลโก้ Facebook
+                    icon: Image.asset(
+                        'assets/images/imgc4.png'), // ใส่โลโก้ Facebook
                   ),
                   IconButton(
                     onPressed: () {},
-                    icon: Image.asset('assets/images/imgc5.png'), // ใส่โลโก้ Apple
+                    icon: Image.asset(
+                        'assets/images/imgc5.png'), // ใส่โลโก้ Apple
                   ),
                 ],
               ),
@@ -129,7 +132,12 @@ class _C02PageUiState extends State<C02PageUi> {
                   const Text("Don't have an account? "),
                   GestureDetector(
                     onTap: () {
-                      // ไปหน้าสมัครสมาชิก
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const C03PageUi(),
+                        ),
+                      );
                     },
                     child: const Text(
                       'SIGN UP',

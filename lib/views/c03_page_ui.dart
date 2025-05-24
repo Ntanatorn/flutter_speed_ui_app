@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_speed_ui_app/views/c02_page_ui.dart';
 
 class C03PageUi extends StatefulWidget {
   const C03PageUi({super.key});
@@ -128,7 +129,12 @@ class _C03PageUiState extends State<C03PageUi> {
                   Text("Have an account? "),
                   GestureDetector(
                     onTap: () {
-                      // ไปหน้า login
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const C02PageUi(),
+                        ),
+                      );
                     },
                     child: Text(
                       "SIGN IN",
