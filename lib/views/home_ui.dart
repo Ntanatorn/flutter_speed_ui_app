@@ -1,6 +1,8 @@
 // ignore_for_file: sort_child_properties_last
 
 import 'package:flutter/material.dart';
+import 'package:flutter_speed_ui_app/views/d01_page_ui.dart';
+import 'package:flutter_speed_ui_app/views/e01_page_ui.dart';
 
 class HomeUi extends StatelessWidget {
   const HomeUi({super.key});
@@ -93,7 +95,14 @@ class HomeUi extends StatelessWidget {
                 height: 20,
               ),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const D01PageUi(),
+                    ),
+                  );
+                },
                 child: Text(
                   'Go to D Page',
                   style: TextStyle(
@@ -116,7 +125,14 @@ class HomeUi extends StatelessWidget {
                 height: 20,
               ),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const E01PageUI(),
+                    ),
+                  );
+                },
                 child: Text(
                   'Go to E Page',
                   style: TextStyle(

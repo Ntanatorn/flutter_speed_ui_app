@@ -1,4 +1,4 @@
-// ignore_for_file: sort_child_properties_last
+// ignore_for_file: sort_child_properties_last, unused_import
 
 import 'package:flutter/material.dart';
 import 'package:flutter_speed_ui_app/views/e03_page_ui.dart';
@@ -24,7 +24,7 @@ class _E02PageUIState extends State<E02PageUI> {
             Stack(
               children: [
                 Image.asset(
-                  'assets/imge2.png',
+                  'assets/images/imge2.png',
                   width: double.infinity,
                   height: 250,
                   fit: BoxFit.cover,
@@ -130,11 +130,11 @@ class _E02PageUIState extends State<E02PageUI> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       InkWell(
-                          child: Image.asset("assets/imge3.png", width: 32)),
+                          child: Image.asset("assets/images/imge3.png", width: 32)),
                       InkWell(
-                          child: Image.asset("assets/imge4.png", width: 32)),
+                          child: Image.asset("assets/images/imge4.png", width: 32)),
                       InkWell(
-                          child: Image.asset("assets/imge5.png", width: 32)),
+                          child: Image.asset("assets/images/imge5.png", width: 32)),
                     ],
                   ),
                   SizedBox(height: 24),

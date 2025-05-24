@@ -17,7 +17,7 @@ class _E03PageUIState extends State<E03PageUI> {
         child: Column(
           children: [
             Image.asset(
-              'assets/imge2.png',
+              'assets/images/imge2.png',
               width: double.infinity,
               height: 220,
               fit: BoxFit.cover,
@@ -130,11 +130,11 @@ class _E03PageUIState extends State<E03PageUI> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       InkWell(
-                          child: Image.asset("assets/imge3.png", width: 32)),
+                          child: Image.asset("assets/images/imge3.png", width: 32)),
                       InkWell(
-                          child: Image.asset("assets/imge4.png", width: 32)),
+                          child: Image.asset("assets/images/imge4.png", width: 32)),
                       InkWell(
-                          child: Image.asset("assets/imge5.png", width: 32)),
+                          child: Image.asset("assets/images/imge5.png", width: 32)),
                     ],
                   ),
                   SizedBox(height: 24),

@@ -18,7 +18,7 @@ class _E06PageUIState extends State<E06PageUI> {
             Stack(
               children: [
                 Image.asset(
-                  'assets/imge2.png',
+                  'assets/images/imge2.png',
                   width: double.infinity,
                   height: 220,
                   fit: BoxFit.cover,

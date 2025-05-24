@@ -39,7 +39,7 @@ class _E05PageUIState extends State<E05PageUI> {
               SizedBox(height: 16),
 
               // ภาพ OTP
-              Image.asset('assets/imge6.png', height: 180),
+              Image.asset('assets/images/imge6.png', height: 180),
               SizedBox(height: 16),
 
               // Label
